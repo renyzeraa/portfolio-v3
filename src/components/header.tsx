@@ -1,6 +1,6 @@
 import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet";
 import { useState } from "react";
 
 export function Header() {
@@ -51,7 +51,11 @@ export function Header() {
                                 </Button>
                             </SheetTrigger>
                             <SheetContent side="right" className="w-64">
-                                <div className="flex flex-col space-y-4 mt-8">
+                                <SheetHeader>
+                                    <SheetTitle className="hidden"></SheetTitle>
+                                    <SheetDescription className="hidden"></SheetDescription>
+                                </SheetHeader>
+                                <div className="flex flex-col space-y-4 mt-2">
                                     {navigationItems.map((item) => (
                                         <Button
                                             key={item.id}
