@@ -11,9 +11,9 @@ export function HeroSection() {
         <section className="py-16 sm:py-20 lg:py-24 text-center bg-linear-to-br from-background to-muted">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-3xl">
-                    <h1 className="text-3xl sm:text-4xl lg:text-5xl mb-4 sm:mb-6">FrontEnd Developer</h1>
+                    <h1 className="text-3xl sm:text-4xl lg:text-5xl mb-4 sm:mb-6">Frontend Developer</h1>
                     <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                        Passionate about creating beautiful, functional web applications with modern technologies
+                        Crafting Fast, Scalable, and Beautiful Web Experiences
                     </p>
                     <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8">
                         <Badge variant="secondary" className="text-sm">React</Badge>

@@ -25,7 +25,7 @@ export function Header() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
-                        <h1 className="text-xl sm:text-2xl tracking-tight">Renan Leandro da Silva Developer</h1>
+                        <h1 className="text-xl sm:text-2xl tracking-tight">Renan Leandro da Silva</h1>
                     </div>
 
                     <nav className="hidden md:flex items-center space-x-1">

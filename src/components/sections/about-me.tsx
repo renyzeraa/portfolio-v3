@@ -11,13 +11,10 @@ export function AboutMeSection() {
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
                         <div className="space-y-6">
                             <p className="text-base sm:text-lg">
-                                I'm a passionate full-stack developer with 5+ years of experience building web applications.
-                                I love creating user-friendly interfaces and solving complex problems with clean, efficient code.
+                                Frontend Developer with extensive experience in building scalable and high-performance web applications. Skilled in JavaScript, TypeScript, and CSS, and proficient with modern frameworks such as React.js, Next.js, and Tailwind CSS.
                             </p>
                             <p className="text-base sm:text-lg">
-                                My expertise spans both frontend and backend technologies, with a strong focus on React,
-                                TypeScript, and Node.js. I'm constantly learning new technologies and best practices to
-                                deliver high-quality software solutions.
+                                Also experienced in backend technologies including Node.js and PHP, with a strong focus on microservices, serverless architecture, and RESTful APIs. Committed to delivering clean, efficient code and robust solutions that enhance user experience and business value.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <Link href="https://github.com/renyzeraa">
