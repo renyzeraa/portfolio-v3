@@ -81,7 +81,7 @@ export function ProjectsSection() {
                         <Card className="h-full flex flex-col">
                             <CardHeader>
                                 <CardTitle className="flex items-center gap-2 text-lg">
-                                    Work Time Calculator
+                                    Move It
                                     <ExternalLink className="h-4 w-4" />
                                 </CardTitle>
                                 <CardDescription>
