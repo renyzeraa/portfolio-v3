@@ -5,6 +5,7 @@ import { WorkExperienceSection } from './components/sections/work-experience';
 import { ProjectsSection } from './components/sections/projects';
 import { EducationSection } from './components/sections/education';
 import { Footer } from './components/footer';
+import { StructuredDataPerson } from './components/seo/structured-data';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <ProjectsSection />
       <EducationSection />
       <Footer />
+      <StructuredDataPerson />
     </div>
   );
 }
